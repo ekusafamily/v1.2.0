@@ -4,11 +4,11 @@ import Footer from "@/components/Footer";
 import { Users } from "lucide-react";
 
 const leaders = [
-  { name: "Japheth Ombui", role: "President", image: "/src/assets/jeff.jpeg" },
-  { name: "Fred Osiro", role: "Secretary General", image: "/src/assets/fred.jpg" },
+  { name: "Japheth Ombui", role: "President", image: "https://ibb.co/Qj8nnkMP" },
+  { name: "Fred Osiro", role: "Secretary General", image: "https://ibb.co/9HPxR5fM" },
   { name: "Vacant", role: "Vice President", image: "/placeholder.svg" },
-  { name: "Vincent Adede ", role: "Head of ICT", image: "/src/assets/vince.jpg" },
-  { name: "Samuel Wairegi", role: "National Communication Strategist", image: "/src/assets/sam.jpeg" },
+  { name: "Vincent Adede ", role: "Head of ICT", image: "https://ibb.co/hRj6tCt0" },
+  { name: "Samuel Wairegi", role: "National Communication Strategist", image: "https://ibb.co/G4wDCfDz" },
   { name: "Vacant", role: "Treasurer", image: "/placeholder.svg" },
 ];
 
@@ -97,5 +97,6 @@ const Leadership = () => {
     </>
   );
 };
+
 
 export default Leadership;
