@@ -19,11 +19,11 @@ const Footer = () => {
               Empowering Kenyan youth through leadership, unity, and action for a better tomorrow.
             </p>
             <div className="flex gap-3">
-              <a href="https://facebook.com" className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors">
+              <a href="https://www.facebook.com/groups/344463816137775/?ref=share&mibextid=NSMWBT" className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="https://x.com/" className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors">
-                <Twitter className="h-5 w-5" />
+              <a href="https://chat.whatsapp.com/Jmss9EzpzJUDI8Hxvl4VnX" className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors">
+                <Whatsapp className="h-5 w-5" />
               </a>
               <a href="https://instagram.com" className="p-2 rounded-full bg-muted hover:bg-primary hover:text-primary-foreground transition-colors">
                 <Instagram className="h-5 w-5" />
@@ -100,5 +100,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;
