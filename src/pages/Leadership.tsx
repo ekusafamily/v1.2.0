@@ -4,13 +4,38 @@ import Footer from "@/components/Footer";
 import { Users } from "lucide-react";
 
 const leaders = [
-  { name: "Japheth Ombui", role: "President", image: "https://ibb.co/Qj8nnkMP" },
-  { name: "Fred Osiro", role: "Secretary General", image: "https://ibb.co/9HPxR5fM" },
-  { name: "Vacant", role: "Vice President", image: "/placeholder.svg" },
-  { name: "Vincent Adede ", role: "Head of ICT", image: "https://ibb.co/hRj6tCt0" },
-  { name: "Samuel Wairegi", role: "National Communication Strategist", image: "https://ibb.co/G4wDCfDz" },
-  { name: "Vacant", role: "Treasurer", image: "/placeholder.svg" },
+  {
+    name: "Japheth Ombui",
+    role: "President",
+    image: "https://i.ibb.co/Qj8nnkMP/Japheth-Ombui.jpg"
+  },
+  {
+    name: "Fred Osiro",
+    role: "Secretary General",
+    image: "https://i.ibb.co/9HPxR5fM/Fred-Osiro.jpg"
+  },
+  {
+    name: "Vacant",
+    role: "Vice President",
+    image: "/placeholder.svg"
+  },
+  {
+    name: "Vincent Adede",
+    role: "Head of ICT",
+    image: "https://i.ibb.co/hRj6tCt0/Vincent-Adede.jpg"
+  },
+  {
+    name: "Samuel Wairegi",
+    role: "National Communication Strategist",
+    image: "https://i.ibb.co/G4wDCfDz/Samuel-Wairegi.jpg"
+  },
+  {
+    name: "Vacant",
+    role: "Treasurer",
+    image: "/placeholder.svg"
+  },
 ];
+
 
 const Leadership = () => {
   return (
@@ -81,7 +106,7 @@ const Leadership = () => {
                 Each of Kenya's 47 counties has an elected leadership team representing local youth interests and coordinating community programs.
               </p>
               <a
-                href="/src/assets/l.pdf"
+                href="/l.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="glass-card rounded-2xl p-8 max-w-md mx-auto block hover:scale-105 transition-transform duration-300 cursor-pointer"
@@ -97,6 +122,5 @@ const Leadership = () => {
     </>
   );
 };
-
 
 export default Leadership;
