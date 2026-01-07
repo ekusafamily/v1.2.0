@@ -7,7 +7,7 @@ const events = [
   {
     id: 1,
     title: "Youth Leadership & Governance Workshop",
-    date: "April 30, 2025",
+    date: "April 30, 2026",
     time: "9:00 AM - 4:00 PM",
     location: "KICC, Nairobi",
     description: "A comprehensive full-day workshop focused on developing essential leadership skills, understanding Kenya's governance structures, and preparing youth for positions in public service. Facilitated by experienced leaders from government, civil society, and the private sector.",
@@ -131,4 +131,5 @@ const EventsSection = () => {
 };
 
 export default EventsSection;
+
 
